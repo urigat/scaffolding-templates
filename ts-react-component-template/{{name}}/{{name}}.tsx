@@ -1,5 +1,5 @@
 // @ts-ignore
-import { style } from './Hero.module.css';
+import { style } from './{{name}}.module.css';
 // @ts-ignore
 import React from 'react';
 
