@@ -1,9 +1,12 @@
-import "./{{name}}.css";
+// @ts-ignore
+import { style } from './Hero.module.css';
 // @ts-ignore
 import React from 'react';
 
 export const {{name}} = () => {
   return (
-    <div className="{{name}}">{{name}}</div>
+    // className={style}
+    // <div className="{{name}}">{{name}}</div>
+    <div className={`{{name}} ${style}`}>{{name}}</div>
   )
 }

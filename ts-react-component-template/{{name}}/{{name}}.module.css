@@ -1,0 +1,5 @@
+/* css modules cannot be left empty */
+.style {
+  text-align: center;
+  max-height: 80%;
+}
